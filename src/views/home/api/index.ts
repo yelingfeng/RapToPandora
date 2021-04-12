@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from 'axios'
 
-const domainName = process.env.VITE_APP_ENV === 'production' ? process.env.VITE_BASE_API : '/RAP'
+const domainName = '/RAP'
 
 const instance: AxiosInstance = axios.create({
   baseURL: domainName,

@@ -60,13 +60,6 @@
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged",
     "commit-msg": "node scripts/verify-commit.js"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,vue}": [
-      "eslint --fix",
-      "git add"
-    ]
   }
 }
