@@ -8,6 +8,7 @@
     "build:sim": "vite build --mode sim",
     "build": "vite build --mode online",
     "serve": "vite preview",
+    "commit":"git-cz",
     "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx,.vue",
     "release": "node scripts/release.js",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",

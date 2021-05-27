@@ -16,6 +16,7 @@ import {
   Drawer,
   Divider,
   Tabs,
+  Modal,
   Switch,
 } from 'ant-design-vue'
 
@@ -37,6 +38,7 @@ export const components = [
   Table,
   Drawer,
   Switch,
+  Modal,
 ]
 
 export default {
